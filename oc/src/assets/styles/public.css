@@ -1,0 +1,22 @@
+
+
+@charset "utf-8";
+
+.demo-spin-icon-load{
+    animation: ani-demo-spin 1s linear infinite;
+}
+
+
+.NC_center .ivu-select-selection{
+	border: 1px solid #c00 !important;
+}
+.NC_center .ivu-select-arrow{
+    color:#c00 !important;
+}
+.NC_center .ivu-input-icon{
+    color:#c00 !important;
+}
+.NC_center .ivu-input{
+    border: 1px solid #c00 !important;
+    color:#c00 !important;
+}

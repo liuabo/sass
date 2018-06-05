@@ -1,0 +1,41 @@
+
+
+@charset "utf-8";
+
+.demo-spin-icon-load{
+    animation: ani-demo-spin 1s linear infinite;
+}
+
+#change-default .ivu-input,
+#change-default .ivu-select-selection{
+	color: #CC0000;
+	border: solid 1px #CC0000;
+}
+#change-default .ivu-input-icon,
+#change-default .ivu-select-arrow{
+	color: #CC0000;
+}
+
+
+.NC_center .ivu-select-selection{
+	border: 1px solid #c00 !important;
+}
+.NC_center .ivu-select-arrow{
+    color:#c00 !important;
+}
+.NC_center .ivu-input-icon{
+    color:#c00 !important;
+}
+.NC_center .ivu-input{
+    border: 1px solid #c00 !important;
+	color:#c00 !important;
+}
+#change-default .ivu-tag{
+	border: 0;
+	background-color: #CC0000;
+	
+}
+#change-default .ivu-tag-text,
+#change-default .ivu-tag .ivu-icon-ios-close-empty{
+	color: white;
+}

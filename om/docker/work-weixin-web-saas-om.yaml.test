@@ -1,0 +1,14 @@
+saas-test-wechat-om:
+  restart: always
+  ports:
+    - '82:80/tcp'
+  memswap_limit: 0
+  labels:
+    aliyun.routing.port_80: 'http://octest.wechat.c.citic/om'
+    aliyun.scale: '1'
+  shm_size: 0
+  image: >-
+    registry.cn-hangzhou.aliyuncs.com/zhongxin-repertory/zhongxin-prod:REPLACETAG
+  memswap_reservation: 0
+  kernel_memory: 0
+  mem_limit: 0
